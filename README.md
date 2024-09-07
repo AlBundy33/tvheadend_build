@@ -1,13 +1,13 @@
-build with
+## build image with
 ```
 docker compose build
 ```
-or with
+or
 ```
 docker compose build --no-cache
 ```
 
-run with
+## build tvhadend with
 ```
 docker compose run --rm tvhbuild
 ```
