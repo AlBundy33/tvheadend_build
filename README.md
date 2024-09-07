@@ -7,7 +7,7 @@ or
 docker compose build --no-cache
 ```
 
-## build tvhadend with
+## build tvheadend with
 ```
 docker compose run --rm tvhbuild
 ```
