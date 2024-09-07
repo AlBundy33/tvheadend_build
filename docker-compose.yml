@@ -1,0 +1,6 @@
+services:
+  tvhbuild:
+    build: .
+    volumes:
+      - ./build:/build
+    restart: "no"
