@@ -1,6 +1,7 @@
 services:
   tvhbuild:
     build: .
+    read_only: true
     volumes:
       - ./build:/build
     restart: "no"
